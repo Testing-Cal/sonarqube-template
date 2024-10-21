@@ -7,7 +7,7 @@ spec:
     matchLabels:
      app: sonarqube
   replicas: 1
-  podSecurityContext:
+  securityContext:
    {}
   template:
     metadata:
